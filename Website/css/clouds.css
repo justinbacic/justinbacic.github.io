@@ -1,0 +1,183 @@
+body {
+    font-family: "Windows Regular";
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: aura 10s linear infinite;  
+    background-image: linear-gradient(rgb(0, 0, 0, 0) 50%, rgb(0, 60, 90));
+    background-size: 800% 150%;
+    flex-direction: column;
+}
+* {
+    cursor: url('/images/pixel-old-united.png'), auto;
+  }
+
+
+.caption {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(247, 247, 247);
+}
+
+.caption h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    animation: text-glow 2s infinite linear;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.caption p {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    z-index: 3;
+    font-size: 30px;
+    font-family: "Windows Regular";
+    text-decoration: none;
+}
+a.back-btn:hover
+{
+   color: #ffffff;
+   text-decoration: none;
+   text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 
+               0 0 35px rgba(255, 255, 255, 0.7), 
+               0 0 45px rgba(255, 255, 255, 0.5);
+}
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    height: 70%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Make slider a column to stack images and captions */
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+}
+.captions_div {
+  margin-top: 10px; /* Adds spacing above the captions */
+  text-align: center;
+  width: 100%;
+  height: 30px; /* Set a fixed height for the caption container to avoid layout shifts */
+  position: relative; /* Relative positioning for the captions */
+}
+
+.img_caption {
+  color: rgb(247, 247, 247);
+  font-size: 1rem;
+  opacity: 0; /* Start fully transparent */
+  transition: opacity 0.5s ease-in-out; /* Fade effect */
+  position: absolute; /* Absolute positioning to overlap in the same space */
+  left: 0; /* Align to the left edge */
+  right: 0; /* Align to the right edge */
+  margin: 0 auto; /* Center the caption */
+}
+
+.img_caption.active {
+  opacity: 1; /* Fade in */
+  z-index: 1; /* Ensure the active caption is on top */
+}
+
+
+.slide {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    left: 15%;
+    opacity: 0.3;
+    z-index: 0;
+    border-radius: 5px;
+}
+
+.slide.active {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+.control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 2;
+    font-size: 24px;
+}
+.control:hover
+{
+   color: #aba7a7;
+   text-decoration: none;
+}
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+@font-face {
+    font-family: "Windows Regular";
+    src: url("/Windows\ Regular.ttf");
+}
+@keyframes aura {
+    0% {
+      background-position: 0% 100%;
+    }
+    50%{
+      background-position: 50% 40%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  @keyframes text-glow {
+    0% {
+      text-shadow: 0 0 20px rgba(68, 191, 240, 0.8), 
+                   0 0 30px rgba(68, 191, 240, 0.6), 
+                   0 0 40px rgba(68, 191, 240, 0.4);
+    }
+    50% {
+      text-shadow: 0 0 10px rgba(68, 191, 240, 0.7), 
+                   0 0 20px rgba(68, 191, 240, 0.5), 
+                   0 0 30px rgba(68, 191, 240, 0.3);
+      
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(68, 191, 240, 0.8), 
+                   0 0 30px rgba(68, 191, 240, 0.6), 
+                   0 0 40px rgba(68, 191, 240, 0.4);
+    }
+  }
