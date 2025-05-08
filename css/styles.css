@@ -6,7 +6,6 @@ body {
   animation: aura 10s linear infinite;
   
   background-image: linear-gradient(rgb(0, 0, 0,0) 50%,rgb(0, 60, 90));
-  background-size: 800% 150%;
 }
 /* Left side (50% of the width) */
 .split_left {
@@ -313,16 +312,4 @@ a.section_btn:active
 @font-face {
   font-family: "Windows Regular";
   src: url("/Windows\ Regular.ttf");
-}
-
-@keyframes aura {
-  0% {
-    background-position: 0% 100%;
-  }
-  50%{
-    background-position: 50% 40%;
-  }
-  100% {
-    background-position: 100% 100%;
-  }
 }
