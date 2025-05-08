@@ -10,7 +10,6 @@ body {
     overflow: hidden;
     animation: aura 10s linear infinite;  
     background-image: linear-gradient(rgb(0, 0, 0, 0) 50%, rgb(0, 60, 90));
-    background-size: 800% 150%;
     flex-direction: column;
 }
 * {
@@ -152,17 +151,6 @@ a.back-btn:hover
     font-family: "Windows Regular";
     src: url("/Windows\ Regular.ttf");
 }
-@keyframes aura {
-    0% {
-      background-position: 0% 100%;
-    }
-    50%{
-      background-position: 50% 40%;
-    }
-    100% {
-      background-position: 100% 100%;
-    }
-  }
   @keyframes text-glow {
     0% {
       text-shadow: 0 0 20px rgba(68, 191, 240, 0.8), 
