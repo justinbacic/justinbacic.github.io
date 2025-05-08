@@ -6,7 +6,6 @@ body {
   margin: 0;
   animation: aura 10s linear infinite;  
   background-image: linear-gradient(rgb(0, 0, 0,0) 50%, rgb(0, 60, 90));
-  background-size: 800% 150%;
   align-items: center; /* Center elements horizontally */
   padding: 20px; /* Adds some padding around the edges */
   font-family: "Windows Regular";
@@ -16,17 +15,6 @@ body {
 }
 * {
   cursor: url('/images/pixel-old-united.png'), auto;
-}
-@keyframes aura {
-  0% {
-    background-position: 0% 100%;
-  }
-  50% {
-    background-position: 50% 40%;
-  }
-  100% {
-    background-position: 100% 100%;
-  }
 }
 
 #title {
