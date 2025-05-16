@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 * {
-    cursor: url('/images/pixel-old-united.png'), auto;
+    cursor: url('../images/pixel-old-united.png'), auto;
   }
 
 
@@ -149,7 +149,7 @@ a.back-btn:hover
 
 @font-face {
     font-family: "Windows Regular";
-    src: url("/Windows\ Regular.ttf");
+    src: url("../Windows\ Regular.ttf");
 }
   @keyframes text-glow {
     0% {

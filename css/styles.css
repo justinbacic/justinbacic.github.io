@@ -30,7 +30,7 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  cursor: url('/images/pixel-old-united.png'), auto;
+  cursor: url('../images/pixel-old-united.png'), auto;
 }
 .container2 {
   width: 30%;
@@ -161,65 +161,65 @@ background-color: rgba(139, 186, 228, 0.6);
 .top    { transform: rotateX(  90deg) translateZ(25px); }
 .bottom { transform: rotateX( -90deg) translateZ(25px); }
 .front_res  { transform: rotateY(   0deg) translateZ(25px); 
-  background-image: url('/images/resume.png'); /* Replace with your image path */
+  background-image: url('../images/resume.png'); /* Replace with your image path */
   background-size: cover;}
 .back_res   { transform: rotateY( 180deg) translateZ(25px); 
-  background-image: url('/images/resume.png'); /* Replace with your image path */
+  background-image: url('../images/resume.png'); /* Replace with your image path */
   background-size: cover;}
 .right_res  { transform: rotateY(  90deg) translateZ(25px); 
-  background-image: url('/images/resume.png'); /* Replace with your image path */
+  background-image: url('../images/resume.png'); /* Replace with your image path */
   background-size: cover;}
 .left_res   { transform: rotateY( -90deg) translateZ(25px); 
-  background-image: url('/images/resume.png'); /* Replace with your image path */
+  background-image: url('../images/resume.png'); /* Replace with your image path */
   background-size: cover;}
 .front_proj  { transform: rotateY(   0deg) translateZ(25px); 
-  background-image: url('/images/gears.png'); /* Replace with your image path */
+  background-image: url('../images/gears.png'); /* Replace with your image path */
   background-size: cover;}
 .back_proj   { transform: rotateY( 180deg) translateZ(25px); 
-  background-image: url('/images/gears.png'); /* Replace with your image path */
+  background-image: url('../images/gears.png'); /* Replace with your image path */
   background-size: cover;}
 .right_proj  { transform: rotateY(  90deg) translateZ(25px); 
-  background-image: url('/images/gears.png'); /* Replace with your image path */
+  background-image: url('../images/gears.png'); /* Replace with your image path */
   background-size: cover;}
 .left_proj   { transform: rotateY( -90deg) translateZ(25px); 
-  background-image: url('/images/gears.png'); /* Replace with your image path */
+  background-image: url('../images/gears.png'); /* Replace with your image path */
   background-size: cover;}
 /* Positioning each face */
 .front_git  { transform: rotateY(   0deg) translateZ(25px); 
-  background-image: url('/images/github.png'); /* Replace with your image path */
+  background-image: url('../images/github.png'); /* Replace with your image path */
   background-size: cover;}
 .back_git   { transform: rotateY( 180deg) translateZ(25px); 
-  background-image: url('/images/github.png'); /* Replace with your image path */
+  background-image: url('../images/github.png'); /* Replace with your image path */
   background-size: cover;}
 .right_git  { transform: rotateY(  90deg) translateZ(25px); 
-  background-image: url('/images/github.png'); /* Replace with your image path */
+  background-image: url('../images/github.png'); /* Replace with your image path */
   background-size: cover;}
 .left_git   { transform: rotateY( -90deg) translateZ(25px); 
-  background-image: url('/images/github.png'); /* Replace with your image path */
+  background-image: url('../images/github.png'); /* Replace with your image path */
   background-size: cover;}
 .front_linked  { transform: rotateY(   0deg) translateZ(25px); 
-    background-image: url('/images/linkedin.png'); /* Replace with your image path */
+    background-image: url('../images/linkedin.png'); /* Replace with your image path */
     background-size: cover;}
 .back_linked   { transform: rotateY( 180deg) translateZ(25px); 
-    background-image: url('/images/linkedin.png'); /* Replace with your image path */
+    background-image: url('../images/linkedin.png'); /* Replace with your image path */
     background-size: cover;}
 .right_linked  { transform: rotateY(  90deg) translateZ(25px); 
-    background-image: url('/images/linkedin.png'); /* Replace with your image path */
+    background-image: url('../images/linkedin.png'); /* Replace with your image path */
     background-size: cover;}
 .left_linked   { transform: rotateY( -90deg) translateZ(25px); 
-    background-image: url('/images/linkedin.png'); /* Replace with your image path */
+    background-image: url('../images/linkedin.png'); /* Replace with your image path */
     background-size: cover;}
 .front_cloud { transform: rotateY(   0deg) translateZ(25px); 
-      background-image: url('/images/dark-cloud_icon-icons.com_54293.png'); /* Replace with your image path */
+      background-image: url('../images/dark-cloud_icon-icons.com_54293.png'); /* Replace with your image path */
       background-size: cover;}
 .back_cloud   { transform: rotateY( 180deg) translateZ(25px); 
-      background-image: url('/images/dark-cloud_icon-icons.com_54293.png'); /* Replace with your image path */
+      background-image: url('../images/dark-cloud_icon-icons.com_54293.png'); /* Replace with your image path */
       background-size: cover;}
 .right_cloud  { transform: rotateY(  90deg) translateZ(25px); 
-      background-image: url('/images/dark-cloud_icon-icons.com_54293.png'); /* Replace with your image path */
+      background-image: url('../images/dark-cloud_icon-icons.com_54293.png'); /* Replace with your image path */
       background-size: cover;}
 .left_cloud   { transform: rotateY( -90deg) translateZ(25px); 
-      background-image: url('/images/dark-cloud_icon-icons.com_54293.png'); /* Replace with your image path */
+      background-image: url('../images/dark-cloud_icon-icons.com_54293.png'); /* Replace with your image path */
       background-size: cover;}
 /* Define the keyframes for continuous rotation */
 @keyframes rotateCube {
@@ -311,5 +311,5 @@ a.section_btn:active
 
 @font-face {
   font-family: "Windows Regular";
-  src: url("/Windows\ Regular.ttf");
+  src: url("../Windows\ Regular.ttf");
 }
