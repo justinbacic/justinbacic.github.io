@@ -27,6 +27,7 @@ body {
   animation: text-glow 2s infinite linear;
 }
 a {
+  
   color: rgba(126, 215, 250, 0.8);
 }
 #project0{
