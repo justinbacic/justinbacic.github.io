@@ -26,7 +26,12 @@ body {
   margin-bottom: 20px; /* Adds some spacing below the title */
   animation: text-glow 2s infinite linear;
 }
-
+a {
+  color: rgba(126, 215, 250, 0.8);
+}
+#project0{
+margin-bottom: 2vh;
+}
 .project {
   display: flex; /* Horizontal layout for instructions and game */
   justify-content: space-between; /* Distributes space between instructions and game */
