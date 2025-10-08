@@ -7,6 +7,7 @@ body {
   
   background-image: linear-gradient(rgb(0, 0, 0,0) 50%,rgb(0, 60, 90));
 }
+
 /* Left side (50% of the width) */
 .split_left {
   color: #ffffff;
@@ -313,3 +314,4 @@ a.section_btn:active
   font-family: "Windows Regular";
   src: url("../Windows\ Regular.ttf");
 }
+
