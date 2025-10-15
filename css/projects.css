@@ -155,9 +155,6 @@ a.back-btn:hover
     padding: 10px;
   }
 
-  #title {
-    font-size: 1.8rem;
-  }
 
   .project {
     flex-direction: column; /* Stack content vertically */
@@ -188,12 +185,6 @@ a.back-btn:hover
     max-width: 300px; /* Optional: keeps it from being too wide */
   }
 
-  .back-btn {
-    font-size: 20px;
-    top: 10px;
-    left: 10px;
-    padding: 5px;
-  }
 
   #page_description p {
     font-size: 0.95rem;
