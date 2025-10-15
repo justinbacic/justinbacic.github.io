@@ -95,7 +95,6 @@ a.back-btn:hover
   position: absolute; /* Absolute positioning to overlap in the same space */
   left: 0; /* Align to the left edge */
   right: 0; /* Align to the right edge */
-  bottom: 10px;
   margin: 0 auto; /* Center the caption */
 }
 
