@@ -36,44 +36,44 @@ body {
 .container2 {
   width: 30%;
   height: 60px;
-  padding-top: 9%;
-  padding-bottom: 9%;
-  margin-left: 50px;
+  padding-top: 9vh;
+  padding-bottom: 9vh;
+  margin-left: 4vw;
   display: flex;
 }
 .container3 {
   width: 30%;
-  padding-top: 9%;
-  padding-bottom: 9%;
+  padding-top: 9vh;
+  padding-bottom: 9vh;
   height: 60px;
-  margin-left: 140px;
+  margin-left: 12vw;
   align-items: center;
   display: flex;
 }
 .container4 {
   width: 30%;
-  padding-top: 9%;
-  padding-bottom: 9%;
+ padding-top: 9vh;
+  padding-bottom: 9vh;
   height: 80px;
-  margin-left: 210px;
+  margin-left: 20vw;
   align-items: center;
   display: flex;
 }
 .container5 {
   width: 30%;
-  padding-top: 9%;
-  padding-bottom: 9%;
+ padding-top: 9vh;
+  padding-bottom: 9vh;
   height: 60px;
-  margin-left: 140px;
+  margin-left: 12vw;
   align-items: center;
   display: flex;
 }
 .container6 {
   width: 30%;
-  padding-top: 9%;
-  padding-bottom: 9%;
+ padding-top: 9vh;
+  padding-bottom: 9vh;
   height: 60px;
-  margin-left: 50px;
+  margin-left: 4vw;
   align-items: center;
   display: flex;
 }
@@ -314,4 +314,23 @@ a.section_btn:active
   font-family: "Windows Regular";
   src: url("../Windows\ Regular.ttf");
 }
+/*Mobile Landscape*/
+@media(max-width:800px) {
+  /* Left side (50% of the width) */
+  .split_left {
+    padding-left: 10px
+  }
+    .main_content h1{
+      padding-top: 20vh;
+    font-size: 48px;
+    padding-bottom: 10vh;
+  }
+  .section_btn {
+  background-color: #00000000;
+  font-family: "Windows Regular";
+  font-size: 18px;
+  border: none;
+  padding-left: 20px;
+}
 
+}
