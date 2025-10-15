@@ -185,5 +185,19 @@ a.back-btn:hover
 .next {
     right: 5px;
 }
+.caption p {
+    padding-bottom: 0px;
+}
+
+}
+/* Mobile-friendly image adjustments */
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  /* Your styles here */
+  .images {
+
+    width: 80%;
+    height: 100%;
+}
+
 
 }
