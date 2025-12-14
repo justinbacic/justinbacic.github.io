@@ -201,3 +201,37 @@ a.back-btn:hover
 
 
 }
+.stars {
+  position: fixed;
+  inset: 0;
+  z-index: -1; /* push behind everything */
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Base star shape */
+.star {
+  position: absolute;
+  background: #ffffff;
+  clip-path: polygon(
+    50% 0%,
+    62.5% 37.5%,
+    100% 50%,
+    62.5% 62.5%,
+    50% 100%,
+    37.5% 62.5%,
+    0% 50%,
+    37.5% 37.5%
+  );
+  box-shadow: 0 0 8px 2px #e8c01e;
+  animation: twinkle 1.8s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
+}
